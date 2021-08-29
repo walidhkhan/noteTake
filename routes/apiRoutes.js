@@ -14,5 +14,9 @@ router.post('/notes', (req, res) => {
     res.JSON(db);
 })
 
+router.delete('/notes/:id', (req,res) => {
+    
+})
+
 module.exports = router;
 
