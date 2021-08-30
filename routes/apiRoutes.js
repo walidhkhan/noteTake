@@ -7,15 +7,12 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req, res) => {
+
     const {title, text} = req.body;
     const newNote = {title,text};
     db.push(newNote);
     fs.writeFileSync('db/db.json', JSON.stringify(db));
     res.JSON(db);
-})
-
-router.delete('/notes/:id', (req,res) => {
-    
 })
 
 module.exports = router;
