@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Description](#Description)
-- [Installation](#Installation)
+- [Preview](#Preview)
 - [Usage](#Usage)
 - [License](#License)
 - [Contributing](#Contributing)
@@ -14,10 +14,10 @@
 ## Description
 This project was the challenge for Express.js and consisted of creating the back end of the project, connecting the provided front end to my created backend, and deploying the app to heroku.
 
-<div id='Installation'/>
+<div id='Preview'/>
 
-## Installation
-
+## Preview
+![App Preview](noteTake-screenshot.png)
 
 <div id='Usage'/>
 
@@ -33,7 +33,7 @@ UNLICENSED
 <div id='Contributing'/>
 
 ## Contributing
-walidhkhan, Xandromus, no166 
+walidhkhan, Xandromus, nol166 
 
 <div id='Tests'/>
 
